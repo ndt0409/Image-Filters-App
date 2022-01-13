@@ -58,10 +58,11 @@
         android:layout_marginBottom="@dimen/_16sdp"
         android:fontFamily="@font/poppins_regular"
         android:includeFontPadding="false"
+        android:text="@string/let_s_create_something_new"
         android:textColor="@color/white"
         android:textSize="@dimen/_13ssp"
-        android:text="@string/let_s_create_something_new"
-        app:layout_constraintBottom_toTopOf="@id/btnViewEditImage"/>
+        app:layout_constraintBottom_toTopOf="@id/btnViewEditImage" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -73,6 +74,5 @@
         android:text="@string/image_filter"
         android:textColor="@color/white"
         android:textSize="@dimen/_20ssp"
-        app:layout_constraintBottom_toTopOf="@id/tvSubTitle"
-        />
+        app:layout_constraintBottom_toTopOf="@id/tvSubTitle" />
 </androidx.constraintlayout.widget.ConstraintLayout>
