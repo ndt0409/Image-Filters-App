@@ -1,9 +1,10 @@
-package com.ndt.imagefilters
+package com.ndt.imagefilters.activities.main
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.MediaStore
+import com.ndt.imagefilters.activities.editimage.EditImageActivity
 import com.ndt.imagefilters.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
